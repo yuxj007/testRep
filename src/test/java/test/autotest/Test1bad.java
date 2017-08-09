@@ -6,7 +6,7 @@ import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Test1 {
+public class Test1bad {
 //	@Test
 	public void testCase1() throws Exception{
 	//	String url="http://msg.whispir.cc/api/v1/apps/test/messages";
