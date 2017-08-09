@@ -20,7 +20,7 @@ public class RestAPITest {
         if (responseCode==200) {
         	System.out.println("Status Code: "+responseCode+"   OK");
         	System.out.println("Success");
-			InputStream is = conn.getInputStream();
+	/*		InputStream is = conn.getInputStream();
 			InputStreamReader isr=new InputStreamReader(is,"UTF-8");
 			BufferedReader b = new BufferedReader(isr);
 		
@@ -35,7 +35,7 @@ public class RestAPITest {
 			}
 			b.close();
 			br.close();
-			conn.disconnect();
+		*/	conn.disconnect();
 	       	return true ;
 	       	
         }
