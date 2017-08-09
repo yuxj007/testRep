@@ -6,7 +6,7 @@ import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class NewTest1 {
+public class Test1 {
 //	@Test
 	public void testCase1() throws Exception{
 	//	String url="http://msg.whispir.cc/api/v1/apps/test/messages";
@@ -40,12 +40,12 @@ public class NewTest1 {
 	}
 	
 	@Test
-	public void testCase2() throws Exception{
+	public void testCase11() throws Exception{
 		String mid="99bc4c61-507e-4bd6-8b97-4274795ed73";
 //		String url="http://msg.whispir.cc/api/v1/apps/test/messages/"+mid;
 //		String url="http://172.16.1.166:18090/api/v1/apps/test/messages/"+mid;
 		String url="http://grcdemo.smartdot.com:38080/demo-web/rest/permission/menuResource/user/1797852098989738004/application/DEFAULT/firstLevelMenus";
-		System.out.println("******Test Case2:	查询状态接口（Get请求）:"+url);
+		System.out.println("******Test11:	查询状态接口（Get请求）:"+url);
 		Assert.assertTrue("HTTP response body contains mid or not:", RestAPITest.setUPGET(url));
 	
 	}
